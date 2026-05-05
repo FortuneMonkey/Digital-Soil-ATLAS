@@ -46,7 +46,7 @@ iframe {
 """, unsafe_allow_html=True)
 
 # Load your map
-map_path = "Digital Soil ATLAS (general).html"
+map_path = "Digital Soil ATLAS (dev).html"
 
 with open(map_path, "r", encoding="utf-8") as f:
     html = f.read()
